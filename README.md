@@ -48,12 +48,8 @@ These factors cannot be captured effectively by historical price data alone, mak
    git clone https://github.com/yourusername/crypto-price-prediction.git
    cd crypto-price-prediction
    ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data) and place it in the `data/` directory.
-4. Run the project:
+2. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data) and place it in the `data/` directory.
+3. Run the project:
    ```bash
    python crypto_price_prediction_lstm.py
    ```
