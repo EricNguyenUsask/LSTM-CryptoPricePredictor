@@ -28,7 +28,7 @@ def create_sequences(data, seq_length):
         y.append(data[i + seq_length, 0])
     return np.array(X), np.array(y)
 
-seq_length = 60  # Sequence length (e.g., 60 days)
+seq_length = 60  # Sequence length (e.g., 60 mins)
 X, y = create_sequences(df_scaled, seq_length)
 
 # Split data into training and testing sets
